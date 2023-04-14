@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+nav ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      align-items: center;
+      gap: 20px;
+      list-style: none;
+      font-weight: 700;
+      font-size: 20px;
+}
+
+.options{
+    padding: 5px 10px;
+    background-color: rgb(100, 100, 224);
+    border-radius: 10px;
+}
+nav ul li{
+    cursor: pointer;
+}
+
+#handimg{
+    width: 20px;
+}
+.uppersection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    margin-left: 430px ;
+    gap: 30px;
+
+}
+.upperrightsidesection img{
+    height: 450px;
+    width: 400px;
+    
+}
+
+.meddlesection{
+    margin-top: 0px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+}
+.text{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+   
+}
+.divider{
+    height: 5px;
+    width: 105px;
+    margin-top: 1px;
+   margin-bottom: 20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.projectslists{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.firstimg img{
+    height: 450px;
+    width: 450px;
+   
+}
+.firstimg p{
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#contactme{
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-left:690px;
+    cursor:pointer;
+}
+
+.social img{
+    width: 30px;
+}
+.social{
+    margin-top: 10px;
+    margin-left: 710px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+@media screen  and  (max-width: 576px){
+    .projectslists{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .uppersection{
+        margin: 0px;    
+        
+    }
+    #contactme{
+        margin: 0px;
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+    .social{
+        margin-left:110px;
+    }
+}
+
